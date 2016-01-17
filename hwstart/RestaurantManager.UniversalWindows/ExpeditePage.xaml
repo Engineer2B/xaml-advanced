@@ -27,6 +27,7 @@
         </Grid.RowDefinitions>
         <GridView Grid.Row="1" ItemsSource="{Binding OrderItems}">
         </GridView>
-        <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" />
+        <Button Content="Clear All Orders" HorizontalAlignment="Center"
+                VerticalAlignment="Center" Grid.Row="2" />
     </Grid>
 </Page>
